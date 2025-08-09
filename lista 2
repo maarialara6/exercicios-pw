@@ -1,18 +1,1 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>/PW Lista 2 </title>
-</head>
-<body>
-    <h1>Maria Eduarda</h1>
 
-    <p>Tenho 18 anos e sou apaixonada por jogos de shooter. Já conclui o Ensino Médio. Em 2023, Fiz curso de Design Gráfico, mas não trabalho na área. </p>
-
-    <h2>Três coisas que eu gosto de fazer:</h2>
-    <ul>Jogar</ul>
-    <ul>Ler (livros, hqs, etc)</ul>
-    <ul>Dançar</ul>
-</body>
-</html> 
