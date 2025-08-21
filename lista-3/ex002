@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Viagem</title>
+    <style>
+        body{
+            background-color: #ba0c2f;
+            color: #ffffff;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .linha{
+            border: none;
+            height: 2px;
+            background-color: #00205b;
+            margin: 20px 0;
+        }
+        h1{
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            text-align: center;
+            text-decoration: underline 2.5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Guia de Viagem: Noruega</h1>
+
+    <h2>Melhor Época para Visitar</h2>
+    <ul>
+        <li><strong>Verão (junho a agosto):</strong> dias longos (sol da meia-noite no norte), ótimo para trilhas e fiordes.</li>
+        <li><strong>Inverno (dezembro a março):</strong> perfeito para ver a aurora boreal, esquiar e visitar vilarejos nevados.</li>
+    </ul>
+    <hr class="linha">
+    
+    <h2>Roteiro Sugerido (7 a 10 dias)</h2>
+
+    <h3>Dia 1-2: Oslo (capital)</h3>
+    <ul>
+        <li><strong>Atrações:</strong>
+            <ul>
+                <li>Ópera de Oslo</li>
+                <li>Museu dos Barcos Vikings</li>
+                <li>Parque Vigeland (esculturas ao ar livre)</li>
+                <li>Fortaleza Akershus</li>
+            </ul>
+        </li>
+        <li><strong>Dica:</strong> Explore a cidade a pé ou de bicicleta. Use o <strong>Oslo Pass</strong> para museus e transporte.</li>
+    </ul>
+
+    <h3>Dia 3-4: Bergen</h3>
+    <ul>
+        <li><strong>Atrações:</strong>
+            <ul>
+                <li>Bryggen (casas coloridas, Patrimônio da UNESCO)</li>
+                <li>Mercado de Peixe</li>
+                <li>Subida ao Monte Fløyen (bondinho ou trilha)</li>
+            </ul>
+        </li>
+        <li><strong>Como chegar:</strong> trem panorâmico Oslo–Bergen (considerado um dos mais bonitos do mundo).</li>
+    </ul>
+
+    <h3>Dia 5-6: Fiordes (Fjord Tour)</h3>
+    <ul>
+        <li><strong>Imperdível:</strong> cruzeiro pelos <strong>Fiordes de Nærøyfjord</strong> e <strong>Aurlandsfjord</strong></li>
+        <li><strong>Base:</strong> Flåm ou Gudvangen</li>
+        <li><strong>Atividades:</strong> caiaque, trilhas, passeios de barco</li>
+    </ul>
+
+    <h3>Dia 7-8: Tromsø (opcional, norte da Noruega)</h3>
+    <ul>
+        <li><strong>Ideal no inverno:</strong> aurora boreal, trenós com huskies, safáris árticos</li>
+        <li><strong>Atrações:</strong> Catedral do Ártico, teleférico Fjellheisen</li>
+        <li><strong>Dica:</strong> Leve roupas térmicas! As temperaturas são negativas.</li>
+    </ul>
+    <hr class="linha">
+
+    <h2>Comida Típica</h2>
+    <li><strong>Peixes:</strong> bacalhau, salmão, arenque</li>
+    <li><strong>Rømmegrøt:</strong> mingau de creme azedo com canela</li>
+    <li><strong>Brunost:</strong> queijo marrom com gosto adocicado</li>
+    <li><strong>Kjøttkaker:</strong> almôndegas norueguesas</li>
+    <hr class="linha">
+
+    <h2>Custos Estimados</h2>
+    <li><strong>Acomodação:</strong> €80–150 por noite (hotéis ou Airbnbs simples)</li>
+    <li><strong>Refeição:</strong> €15–30 por pessoa</li>
+    <li><strong>Transporte:</strong> trem, ônibus e voos internos (use apps como Vy e Widerøe)</li>
+    <li><strong>Passeios:</strong> cruzeiros e tours guiados custam entre €50–150</li>
+    <hr class="linha">
+
+    <h2>Dicas Úteis</h2>
+    <li><strong>Idioma:</strong> Norueguês, mas quase todos falam inglês</li>
+    <li><strong>Pagamento:</strong> cartão aceito em quase todos os lugares</li>
+    <li><strong>Transporte:</strong> trem e ônibus são eficientes e pontuais</li>
+    <li><strong>Internet:</strong> Wi-Fi gratuito é comum, principalmente nas cidades</li>
+
+</body>
+</html>
