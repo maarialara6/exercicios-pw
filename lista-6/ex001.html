@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./portifolio.css" />
+    <title>Meu Portfólio/title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        line-height: 1.6;
+        background: #f1faee;
+        color: #333;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(90deg, #e63946, #457b9d);
+        color: #f1faee;
+        padding: 1rem 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .navbar h1 {
+        font-size: 1.5rem;
+      }
+
+      .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      .navbar ul li a {
+        color: #f1faee;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s, border-bottom 0.3s;
+      }
+
+      .navbar ul li a:hover {
+        color: #1d3557;
+        border-bottom: 2px solid #1d3557;
+        padding-bottom: 3px;
+      }
+
+      .section {
+        padding: 4rem 2rem;
+        text-align: center;
+      }
+
+      .section h2 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        color: #222;
+      }
+
+      .section p {
+        max-width: 700px;
+        margin: auto;
+        color: #1d3557;
+      }
+
+      .projetos-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 2.5rem;
+        padding: 0 1rem;
+      }
+
+      .projeto-card {
+        background: #f1faee;
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .projeto-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .btn {
+        display: inline-block;
+        background: #457b9d;
+        color: #f1faee;
+        padding: 12px 25px;
+        margin-top: 1.5rem;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background 0.3s, transform 0.2s;
+      }
+
+      .btn:hover {
+        background: #e63946;
+        transform: scale(1.05);
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background: #a8dadc;
+        color: #457b9d;
+        margin-top: 3rem;
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .navbar ul {
+          flex-direction: column;
+          margin-top: 10px;
+        }
+
+        .section {
+          padding: 3rem 1rem;
+        }
+
+        .projetos-container {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1>Meu Portfólio</h1>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="sobre" class="section">
+      <h2>Sobre Mim</h2>
+      <p>
+        Olá! Sou aluna do Curso de Desenvolvimento de Sistemas e Designer Gráfica, e este é meu portfólio.
+      </p>
+    </section>
+
+    <section id="projetos" class="section">
+      <h2>Meus Projetos</h2>
+      <div class="projetos-container">
+        <div class="projeto-card">
+          <h3>Restaurante Santa Maria Bar</h3>
+          <p>Cardápio digital.</p>
+        </div>
+        <div class="projeto-card">
+          <h3>Brand-Buz</h3>
+        </div>
+        <div class="projeto-card">
+          <h3>Design Gráfico</h3>
+          <p>Projetos de design gráfico.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <h2>Contato</h2>
+      <p>Quer me contratar? Entre em contato pelo e-mail:</p>
+      <a href="mailto:maria.lara@hotmail.com" class="btn">Enviar E-mail</a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Maria E S Lara</p>
+    </footer>
+  </body>
+</html>
