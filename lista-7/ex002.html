@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Personagens</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-image: url(https://64.media.tumblr.com/783dec97c051fe947416273091393080/e6353f42222ce5d5-7b/s640x960/58de99bf3e6f2809b854db532b4fa64a239850fc.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1a1a1abb;
+    text-align: center;
+    padding: 30px 10px;
+    border-bottom: 3px solid #ff3c00;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #ff3c00;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #ccc;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: 2px solid #333;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 60, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    color: #ff3c00;
+    margin: 10px 0 5px;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 0.95rem;
+    padding: 0 10px 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1a1a1abb;
+    border-top: 2px solid #ff3c00;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festival de Personagens</h1>
+        <p>Os meus atuais personagens favoritos</p>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <img src="https://pbs.twimg.com/media/G148U83XEAAPkqX?format=jpg&name=large" alt="Cassandra Cain - BlackBat">
+            <h2>Cassandra Cain (BlackBat)</h2>
+            <p>Silenciosa, disciplinada e incrivelmente forte, Cassandra é o equilíbrio entre poder e empatia. 
+            Sua determinação e olhar sereno mostram que a força verdadeira vem do controle e da sensibilidade. 
+            Uma mulher que fala pouco, mas expressa tudo com ações.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://pbs.twimg.com/media/G47LA9vXwAA5hNc?format=jpg&name=medium" alt="Jason Todd - Red Hood">
+            <h2>Jason Todd (Red Hood)</h2>
+            <p>Jason carrega o peso de um passado turbulento, mas o transforma em coragem e proteção. 
+            É intenso, rebelde e autêntico — um coração que luta, mesmo quando o mundo não entende. 
+            Ele é aquele tipo de pessoa que se machuca, mas ainda protege os outros. 
+            Difícil não admirar essa força bruta e vulnerável ao mesmo tempo.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/6d/72/23/6d72239e09c3b1ad088ab005032c9da3.jpg" alt="Adrian Chase - Pacificador">
+            <h2>Adrian Chase (Pacificador)</h2>
+            <p>Caótico, carismático e surpreendentemente doce, Adrian mistura humor e lealdade em doses perfeitas. 
+            Atrás do comportamento excêntrico existe um coração genuíno e protetor. 
+            É o tipo de pessoa que te faz rir nos piores momentos — e que, no fundo, só quer ser compreendido.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/d6/f5/cd/d6f5cdb1d9eb68fcd4fabecd8233d0fe.jpg" alt="Clark Kent - Superman 2025">
+            <h2>Clark Kent (Superman 2025)</h2>
+            <p>Clark é a personificação da esperança. Mesmo sendo o mais poderoso, ele escolhe sempre a bondade. 
+            É gentil, ético e inspirador — um exemplo de como o verdadeiro poder está em fazer o bem.</p>
+        </div>
+    </main>
+
+    <footer>
+        <small>Feito com ❤️ e muita admiração pelos meus tipos da DCU</small>
+    </footer>
+</body>
+</html>
