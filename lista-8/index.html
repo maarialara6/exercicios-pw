@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lantern Corps Dashboard</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      .header {
+        background-color: #27c468;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        border-bottom: 4px solid #1b9a4f;
+      }
+
+      .container {
+        display: flex;
+        min-height: calc(100vh - 120px);
+        background: #f3fff5;
+      }
+
+      .sidebar {
+        width: 220px;
+        background: #d8f5dd;
+        padding: 20px;
+        border-right: 3px solid #bceac7;
+      }
+
+      .sidebar h2 {
+        margin-bottom: 15px;
+      }
+
+      .sidebar ul {
+        list-style: none;
+      }
+
+      .sidebar li {
+        margin: 10px 0;
+      }
+
+      .sidebar a {
+        text-decoration: none;
+        color: #0f3d1f;
+        background: white;
+        display: block;
+        padding: 10px;
+        border-radius: 8px;
+        transition: 0.2s;
+        border: 1px solid #c3e8ce;
+      }
+
+      .sidebar a:hover {
+        background: #b9edc6;
+      }
+
+      .content {
+        flex-grow: 1;
+        padding: 40px 60px;
+      }
+
+      .title {
+        margin-bottom: 30px;
+        font-size: 26px;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+      }
+
+      .card {
+        width: 260px;
+        padding: 20px;
+        border-radius: 12px;
+        border: 2px solid transparent;
+        background: white;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        transition: transform 0.2s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .green {
+        border-color: #6cd980;
+        background: #e8ffe9;
+      }
+
+      .yellow {
+        border-color: #ffd95c;
+        background: #fff8d6;
+      }
+
+      .red {
+        border-color: #ff6b6b;
+        background: #ffe3e3;
+      }
+
+      .blue {
+        border-color: #64a8ff;
+        background: #e0efff;
+      }
+
+      .purple {
+        border-color: #c79cff;
+        background: #f5e6ff;
+      }
+
+      .white {
+        border-color: #d3d3d3;
+        background: #fafafa;
+      }
+
+      .footer {
+        background: #d8f5dd;
+        text-align: center;
+        padding: 15px;
+        border-top: 3px solid #bceac7;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Lantern Corps Dashboard</h1>
+    </header>
+
+    <div class="container">
+      <nav class="sidebar">
+        <h2>Corps</h2>
+        <ul>
+          <li><a href="#">Green Lanterns</a></li>
+          <li><a href="#">Sinestro Corps</a></li>
+          <li><a href="#">Red Lanterns</a></li>
+          <li><a href="#">Blue Lanterns</a></li>
+          <li><a href="#">Star Sapphires</a></li>
+          <li><a href="#">White Lanterns</a></li>
+        </ul>
+      </nav>
+
+      <main class="content">
+        <h2 class="title">Tropas do Espectro Emocional</h2>
+
+        <section class="cards">
+          <div class="card green">
+            <h3>Green Lantern Corps — VONTADE</h3>
+            <p>
+              A tropa mais conhecida. Seus anéis canalizam a força da vontade
+              para criar qualquer construção imaginável.
+            </p>
+          </div>
+
+          <div class="card yellow">
+            <h3>Sinestro Corps — MEDO</h3>
+            <p>
+              A tropa do medo. Quanto mais terror inspiram, mais poderosos se
+              tornam.
+            </p>
+          </div>
+
+          <div class="card red">
+            <h3>Red Lanterns — IRA</h3>
+            <p>
+              Impelidos pela fúria, seus anéis liberam energia corrosiva
+              devastadora.
+            </p>
+          </div>
+
+          <div class="card blue">
+            <h3>Blue Lanterns — ESPERANÇA</h3>
+            <p>
+              Amplificam o poder dos Lanternas Verdes, realizando feitos
+              milagrosos.
+            </p>
+          </div>
+
+          <div class="card purple">
+            <h3>Star Sapphires — AMOR</h3>
+            <p>
+              Canalizam a energia do amor. Seus cristais podem curar ou
+              aprisionar emoções.
+            </p>
+          </div>
+
+          <div class="card white">
+            <h3>White Lanterns — VIDA</h3>
+            <p>
+              A vida em sua forma mais pura. Possuem poder de regeneração e
+              renascimento.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">Lantern Corps Dashboard — Projeto Flexbox</footer>
+  </body>
+</html>
