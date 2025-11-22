@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #cdb4db;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  background: #ffc8dd; 
+  border-radius: 16px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.display {
+  grid-column: 1 / -1;
+  background: #bde0fe; 
+  color: #333;
+  font-size: 2em;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: right;
+  margin-bottom: 14px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 60px;
+  gap: 10px;
+}
+
+.buttons .btn {
+  font-size: 1.2em;
+  border: none;
+  background: #ffafcc;
+  color: #333;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.buttons .btn:hover {
+  background: #ffc8dd; 
+}
+
+.buttons .operator {
+  background: #a2d2ff; 
+  color: #333;
+}
+
+.buttons .operator:hover {
+  background: #bde0fe;
+}
+
+.buttons .equal {
+  background: #a2d2ff;
+  color: #333;
+  grid-column: 4;
+  grid-row: 3 / 5; 
+}
+
+.buttons .zero {
+  grid-column: 1 / 3;
+}
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">0</div>
+      <div class="buttons">
+        <button class="btn clear">C</button>
+        <button class="btn operator">/</button>
+        <button class="btn operator">*</button>
+        <button class="btn operator">-</button>
+
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operator">+</button>
+
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn equal" rowspan="2">=</button>
+
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+
+        <button class="btn zero">0</button>
+        <button class="btn">.</button>
+      </div>
+    </div>
+  </body>
+</html>
