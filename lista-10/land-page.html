@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wardiere Inc.</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --purple-dark: #0f0226;
+        --purple-light: #2c086c;
+        --text-light: #d8d8d8;
+        --text-primary: #ffffff;
+        --accent-purple: #a58cff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: var(--purple-dark);
+        color: var(--text-primary);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .main-container {
+        background-image: linear-gradient(
+          to top left,
+          #a58cff,
+          #2c086c,
+          #0f0226
+        );
+        margin: 30px;
+        border-radius: 20px;
+        flex-grow: 1;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 60px;
+        border-bottom: 1px solid transparent;
+      }
+
+      .logo-area {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .logo-area img {
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .menu a {
+        margin: 0 18px;
+        color: var(--text-light);
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 300;
+        transition: color 0.2s;
+      }
+
+      .menu a:hover {
+        color: var(--text-primary);
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        padding: 60px;
+        padding-top: 40px;
+        gap: 60px;
+        align-items: center;
+      }
+
+      .text-box {
+        max-width: 100%;
+        padding-right: 40px;
+      }
+
+      .text-box span {
+        background: var(--accent-purple);
+        color: var(--purple-dark);
+        padding: 4px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: lowercase;
+      }
+
+      .text-box h1 {
+        margin: 20px 0;
+        font-size: 3rem;
+        line-height: 1.2;
+        font-weight: 700;
+      }
+
+      .text-box p {
+        color: var(--text-light);
+        line-height: 1.7;
+        font-size: 1rem;
+      }
+
+      .cta-btn,
+      .signup-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 35px;
+        padding: 14px 30px;
+        background: white;
+        color: var(--purple-dark);
+        border: none;
+        border-radius: 30px;
+        font-weight: 700;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: background 0.2s;
+      }
+
+      .cta-btn:hover,
+      .signup-btn:hover {
+        background: #f0f0f0;
+      }
+
+      .image-box {
+        display: flex;
+        justify-content: flex-end;
+        align-items: stretch;
+      }
+
+      .image-box img {
+        width: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="logo-area">
+        <img
+          src="https://github.com/alessandrovitorio/exercicios-pw/blob/main/lista-10/land-page/assets/logo.png?raw=true"
+          alt="Logo da empresa"
+        />
+      </div>
+
+      <nav class="menu">
+        <a href="#">Solutions</a>
+        <a href="#">Pricing</a>
+        <a href="#">About</a>
+      </nav>
+
+      <a href="#" class="signup-btn"> Sign up </a>
+    </header>
+
+    <div class="main-container">
+      <main class="hero">
+        <div class="text-box">
+          <span class="tag">#flexiblesolutions</span>
+
+          <h1>Flexible Solutions for Your Business</h1>
+
+          <p>
+            Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus
+            est mist aliquet elit ac nisl. Lorem ipsum praesent ac massa at
+            ligula reet est iaculis. Vivamus est mist.
+          </p>
+
+          <a href="#" class="cta-btn"> Start free today </a>
+        </div>
+
+        <div class="image-box">
+          <img
+            src="https://github.com/alessandrovitorio/exercicios-pw/blob/main/lista-10/land-page/assets/banner.png?raw=true"
+            alt="Pessoa trabalhando no notebook"
+          />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
